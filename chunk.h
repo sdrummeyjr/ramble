@@ -9,6 +9,7 @@
 #include "value.h"
 
 typedef enum {
+    OP_CONSTANT,
     OP_RETURN,
 } OpCode;
 
@@ -26,4 +27,4 @@ int addConstant(Chunk* chunk, Value value);
 
 #endif //RAMBLE_CHUNK_H
 
-// todo STOPPED @ Constant Instructions 14.5.3
+// todo STOPPED @ Line Information 14.6
