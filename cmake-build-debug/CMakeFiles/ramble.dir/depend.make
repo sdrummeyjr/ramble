@@ -18,6 +18,7 @@ CMakeFiles\ramble.dir\main.c.obj: ..\common.h
 CMakeFiles\ramble.dir\main.c.obj: ..\debug.h
 CMakeFiles\ramble.dir\main.c.obj: ..\main.c
 CMakeFiles\ramble.dir\main.c.obj: ..\value.h
+CMakeFiles\ramble.dir\main.c.obj: ..\vm.h
 
 CMakeFiles\ramble.dir\memory.c.obj: ..\common.h
 CMakeFiles\ramble.dir\memory.c.obj: ..\memory.c
@@ -27,4 +28,11 @@ CMakeFiles\ramble.dir\value.c.obj: ..\common.h
 CMakeFiles\ramble.dir\value.c.obj: ..\memory.h
 CMakeFiles\ramble.dir\value.c.obj: ..\value.c
 CMakeFiles\ramble.dir\value.c.obj: ..\value.h
+
+CMakeFiles\ramble.dir\vm.c.obj: ..\chunk.h
+CMakeFiles\ramble.dir\vm.c.obj: ..\common.h
+CMakeFiles\ramble.dir\vm.c.obj: ..\debug.h
+CMakeFiles\ramble.dir\vm.c.obj: ..\value.h
+CMakeFiles\ramble.dir\vm.c.obj: ..\vm.c
+CMakeFiles\ramble.dir\vm.c.obj: ..\vm.h
 
