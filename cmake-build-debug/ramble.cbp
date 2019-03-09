@@ -114,6 +114,12 @@
 		<Unit filename="C:/Users/sdrum/CLionProjects/ramble/value.h">
 			<Option target="ramble"/>
 		</Unit>
+		<Unit filename="C:/Users/sdrum/CLionProjects/ramble/vm.c">
+			<Option target="ramble"/>
+		</Unit>
+		<Unit filename="C:/Users/sdrum/CLionProjects/ramble/vm.h">
+			<Option target="ramble"/>
+		</Unit>
 		<Unit filename="C:/Users/sdrum/CLionProjects/ramble/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

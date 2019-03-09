@@ -153,13 +153,33 @@ CMakeFiles\ramble.dir\value.c.s: cmake_force
  /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\ramble.dir\value.c.s /c C:\Users\sdrum\CLionProjects\ramble\value.c
 <<
 
+CMakeFiles\ramble.dir\vm.c.obj: CMakeFiles\ramble.dir\flags.make
+CMakeFiles\ramble.dir\vm.c.obj: ..\vm.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\sdrum\CLionProjects\ramble\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/ramble.dir/vm.c.obj"
+	C:\PROGRA~2\MICROS~2\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\ramble.dir\vm.c.obj /FdCMakeFiles\ramble.dir\ /FS -c C:\Users\sdrum\CLionProjects\ramble\vm.c
+<<
+
+CMakeFiles\ramble.dir\vm.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ramble.dir/vm.c.i"
+	C:\PROGRA~2\MICROS~2\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe > CMakeFiles\ramble.dir\vm.c.i @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\sdrum\CLionProjects\ramble\vm.c
+<<
+
+CMakeFiles\ramble.dir\vm.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ramble.dir/vm.c.s"
+	C:\PROGRA~2\MICROS~2\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\ramble.dir\vm.c.s /c C:\Users\sdrum\CLionProjects\ramble\vm.c
+<<
+
 # Object files for target ramble
 ramble_OBJECTS = \
 "CMakeFiles\ramble.dir\main.c.obj" \
 "CMakeFiles\ramble.dir\chunk.c.obj" \
 "CMakeFiles\ramble.dir\memory.c.obj" \
 "CMakeFiles\ramble.dir\debug.c.obj" \
-"CMakeFiles\ramble.dir\value.c.obj"
+"CMakeFiles\ramble.dir\value.c.obj" \
+"CMakeFiles\ramble.dir\vm.c.obj"
 
 # External object files for target ramble
 ramble_EXTERNAL_OBJECTS =
@@ -169,9 +189,10 @@ ramble.exe: CMakeFiles\ramble.dir\chunk.c.obj
 ramble.exe: CMakeFiles\ramble.dir\memory.c.obj
 ramble.exe: CMakeFiles\ramble.dir\debug.c.obj
 ramble.exe: CMakeFiles\ramble.dir\value.c.obj
+ramble.exe: CMakeFiles\ramble.dir\vm.c.obj
 ramble.exe: CMakeFiles\ramble.dir\build.make
 ramble.exe: CMakeFiles\ramble.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\sdrum\CLionProjects\ramble\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C executable ramble.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\sdrum\CLionProjects\ramble\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking C executable ramble.exe"
 	C:\Users\sdrum\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\183.5429.37\bin\cmake\win\bin\cmake.exe -E vs_link_exe --intdir=CMakeFiles\ramble.dir --manifests  -- C:\PROGRA~2\MICROS~2\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\ramble.dir\objects1.rsp @<<
  /out:ramble.exe /implib:ramble.lib /pdb:C:\Users\sdrum\CLionProjects\ramble\cmake-build-debug\ramble.pdb /version:0.0  /machine:X86 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<

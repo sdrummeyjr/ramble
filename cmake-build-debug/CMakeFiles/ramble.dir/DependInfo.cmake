@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "C:/Users/sdrum/CLionProjects/ramble/main.c" "C:/Users/sdrum/CLionProjects/ramble/cmake-build-debug/CMakeFiles/ramble.dir/main.c.obj"
   "C:/Users/sdrum/CLionProjects/ramble/memory.c" "C:/Users/sdrum/CLionProjects/ramble/cmake-build-debug/CMakeFiles/ramble.dir/memory.c.obj"
   "C:/Users/sdrum/CLionProjects/ramble/value.c" "C:/Users/sdrum/CLionProjects/ramble/cmake-build-debug/CMakeFiles/ramble.dir/value.c.obj"
+  "C:/Users/sdrum/CLionProjects/ramble/vm.c" "C:/Users/sdrum/CLionProjects/ramble/cmake-build-debug/CMakeFiles/ramble.dir/vm.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "MSVC")
 

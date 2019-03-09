@@ -259,6 +259,33 @@ value.c.s:
 	$(MAKE) -f CMakeFiles\ramble.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ramble.dir\value.c.s
 .PHONY : value.c.s
 
+vm.obj: vm.c.obj
+
+.PHONY : vm.obj
+
+# target to build an object file
+vm.c.obj:
+	$(MAKE) -f CMakeFiles\ramble.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ramble.dir\vm.c.obj
+.PHONY : vm.c.obj
+
+vm.i: vm.c.i
+
+.PHONY : vm.i
+
+# target to preprocess a source file
+vm.c.i:
+	$(MAKE) -f CMakeFiles\ramble.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ramble.dir\vm.c.i
+.PHONY : vm.c.i
+
+vm.s: vm.c.s
+
+.PHONY : vm.s
+
+# target to generate assembly for a file
+vm.c.s:
+	$(MAKE) -f CMakeFiles\ramble.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ramble.dir\vm.c.s
+.PHONY : vm.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -283,6 +310,9 @@ help:
 	@echo ... value.obj
 	@echo ... value.i
 	@echo ... value.s
+	@echo ... vm.obj
+	@echo ... vm.i
+	@echo ... vm.s
 .PHONY : help
 
 
