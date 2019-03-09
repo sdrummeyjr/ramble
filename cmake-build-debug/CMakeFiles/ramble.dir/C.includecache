@@ -6,16 +6,6 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/sdrum/CLionProjects/ramble/chunk.c
-stdlib.h
--
-chunk.h
-C:/Users/sdrum/CLionProjects/ramble/chunk.h
-memory.h
-C:/Users/sdrum/CLionProjects/ramble/memory.h
-value.h
-C:/Users/sdrum/CLionProjects/ramble/value.h
-
 C:/Users/sdrum/CLionProjects/ramble/chunk.h
 common.h
 C:/Users/sdrum/CLionProjects/ramble/common.h
@@ -35,30 +25,12 @@ stdio.h
 -
 debug.h
 C:/Users/sdrum/CLionProjects/ramble/debug.h
-
-C:/Users/sdrum/CLionProjects/ramble/debug.h
-chunk.h
-C:/Users/sdrum/CLionProjects/ramble/chunk.h
-
-C:/Users/sdrum/CLionProjects/ramble/main.c
-stdio.h
--
-common.h
-C:/Users/sdrum/CLionProjects/ramble/common.h
-chunk.h
-C:/Users/sdrum/CLionProjects/ramble/chunk.h
-debug.h
-C:/Users/sdrum/CLionProjects/ramble/debug.h
-
-C:/Users/sdrum/CLionProjects/ramble/memory.h
-
-C:/Users/sdrum/CLionProjects/ramble/value.c
-stdio.h
--
-memory.h
-C:/Users/sdrum/CLionProjects/ramble/memory.h
 value.h
 C:/Users/sdrum/CLionProjects/ramble/value.h
+
+C:/Users/sdrum/CLionProjects/ramble/debug.h
+chunk.h
+C:/Users/sdrum/CLionProjects/ramble/chunk.h
 
 C:/Users/sdrum/CLionProjects/ramble/value.h
 common.h

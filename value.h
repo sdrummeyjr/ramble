@@ -18,6 +18,6 @@ typedef struct {
 void initValueArray(ValueArray* array);
 void writeValueArray(ValueArray* array, Value value);
 void freeValueArray(ValueArray* array);
-void printValue(Value value)
+void printValue(Value value);
 
 #endif //RAMBLE_VALUE_H
