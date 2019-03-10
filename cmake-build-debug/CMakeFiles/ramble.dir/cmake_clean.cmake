@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/ramble.dir/debug.c.obj"
   "CMakeFiles/ramble.dir/value.c.obj"
   "CMakeFiles/ramble.dir/vm.c.obj"
+  "CMakeFiles/ramble.dir/compiler.c.obj"
+  "CMakeFiles/ramble.dir/scanner.c.obj"
   "ramble.pdb"
   "ramble.exe"
   "ramble.exe.manifest"

@@ -25,8 +25,10 @@ typedef enum {
 
 void initVM();
 void freeVM();
-InterpretResult interpret(Chunk* chunk);
+InterpretResult interpret(const char* source);
 void push(Value value);
 Value pop();
+
+// todo 16.1.1 Opening the compilation pipeline
 
 #endif //RAMBLE_VM_H

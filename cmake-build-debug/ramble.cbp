@@ -93,6 +93,12 @@
 		<Unit filename="C:/Users/sdrum/CLionProjects/ramble/common.h">
 			<Option target="ramble"/>
 		</Unit>
+		<Unit filename="C:/Users/sdrum/CLionProjects/ramble/compiler.c">
+			<Option target="ramble"/>
+		</Unit>
+		<Unit filename="C:/Users/sdrum/CLionProjects/ramble/compiler.h">
+			<Option target="ramble"/>
+		</Unit>
 		<Unit filename="C:/Users/sdrum/CLionProjects/ramble/debug.c">
 			<Option target="ramble"/>
 		</Unit>
@@ -106,6 +112,12 @@
 			<Option target="ramble"/>
 		</Unit>
 		<Unit filename="C:/Users/sdrum/CLionProjects/ramble/memory.h">
+			<Option target="ramble"/>
+		</Unit>
+		<Unit filename="C:/Users/sdrum/CLionProjects/ramble/scanner.c">
+			<Option target="ramble"/>
+		</Unit>
+		<Unit filename="C:/Users/sdrum/CLionProjects/ramble/scanner.h">
 			<Option target="ramble"/>
 		</Unit>
 		<Unit filename="C:/Users/sdrum/CLionProjects/ramble/value.c">

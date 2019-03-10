@@ -5,9 +5,11 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
   "C:/Users/sdrum/CLionProjects/ramble/chunk.c" "C:/Users/sdrum/CLionProjects/ramble/cmake-build-debug/CMakeFiles/ramble.dir/chunk.c.obj"
+  "C:/Users/sdrum/CLionProjects/ramble/compiler.c" "C:/Users/sdrum/CLionProjects/ramble/cmake-build-debug/CMakeFiles/ramble.dir/compiler.c.obj"
   "C:/Users/sdrum/CLionProjects/ramble/debug.c" "C:/Users/sdrum/CLionProjects/ramble/cmake-build-debug/CMakeFiles/ramble.dir/debug.c.obj"
   "C:/Users/sdrum/CLionProjects/ramble/main.c" "C:/Users/sdrum/CLionProjects/ramble/cmake-build-debug/CMakeFiles/ramble.dir/main.c.obj"
   "C:/Users/sdrum/CLionProjects/ramble/memory.c" "C:/Users/sdrum/CLionProjects/ramble/cmake-build-debug/CMakeFiles/ramble.dir/memory.c.obj"
+  "C:/Users/sdrum/CLionProjects/ramble/scanner.c" "C:/Users/sdrum/CLionProjects/ramble/cmake-build-debug/CMakeFiles/ramble.dir/scanner.c.obj"
   "C:/Users/sdrum/CLionProjects/ramble/value.c" "C:/Users/sdrum/CLionProjects/ramble/cmake-build-debug/CMakeFiles/ramble.dir/value.c.obj"
   "C:/Users/sdrum/CLionProjects/ramble/vm.c" "C:/Users/sdrum/CLionProjects/ramble/cmake-build-debug/CMakeFiles/ramble.dir/vm.c.obj"
   )
