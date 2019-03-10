@@ -143,8 +143,8 @@ static TokenType identifierType() {
         case 't':
             if (scanner.current - scanner.start > 1) {
                 switch (scanner.start[1]) {
-                    case 'h': return checkKeyword(2,2,"is", TOKEN_THIS);
-                    case 'r': return checkKeyword(2,2,"ue", TOKEN_TRUE);
+                    case 'h': return checkKeyword(2, 2, "is", TOKEN_THIS);
+                    case 'r': return checkKeyword(2, 2, "ue", TOKEN_TRUE);
                 }
             }
             break;
@@ -226,15 +226,17 @@ Token scanToken() {
 
 
 
-// NOTES ---------------------------------------------------------------------------------------------------------------
+/* NOTES ---------------------------------------------------------------------------------------------------------------
 
-// ----- STRING NOTES -----
-// defer converting the literal lexeme to a runtime value until later
-// tokens only store the lexeme—the character sequence exactly as it appears in the user’s source codeLater in the
-// compiler, we convert that lexeme to a runtime value right when we are ready to store it in the chunk’s constant table
+----- STRING NOTES -----
+defer converting the literal lexeme to a runtime value until later
+tokens only store the lexeme—the character sequence exactly as it appears in the user’s source codeLater in the
+compiler, we convert that lexeme to a runtime value right when we are ready to store it in the chunk’s constant table
 
-// doing the lexeme to value conversion in the compiler introduces some redundancy.
-// the work to scan a number literal is awfully similar to the work required to convert a sequence of digit characters
-// to a number value.
-// but there isn’t that much redundancy, it isn’t in anything performance-critical, and it keeps our scanner simpler
-// todo - after language completed, experiment to improve performance
+doing the lexeme to value conversion in the compiler introduces some redundancy.
+the work to scan a number literal is awfully similar to the work required to convert a sequence of digit characters
+to a number value.
+but there isn’t that much redundancy, it isn’t in anything performance-critical, and it keeps our scanner simpler
+todo - after language completed, experiment to improve performance of working with strings
+
+*/
