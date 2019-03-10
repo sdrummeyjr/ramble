@@ -6,16 +6,6 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/sdrum/CLionProjects/ramble/chunk.c
-stdlib.h
--
-chunk.h
-C:/Users/sdrum/CLionProjects/ramble/chunk.h
-memory.h
-C:/Users/sdrum/CLionProjects/ramble/memory.h
-value.h
-C:/Users/sdrum/CLionProjects/ramble/value.h
-
 C:/Users/sdrum/CLionProjects/ramble/chunk.h
 common.h
 C:/Users/sdrum/CLionProjects/ramble/common.h
@@ -30,14 +20,6 @@ stddef.h
 stdint.h
 -
 
-C:/Users/sdrum/CLionProjects/ramble/debug.c
-stdio.h
--
-debug.h
-C:/Users/sdrum/CLionProjects/ramble/debug.h
-value.h
-C:/Users/sdrum/CLionProjects/ramble/value.h
-
 C:/Users/sdrum/CLionProjects/ramble/debug.h
 chunk.h
 C:/Users/sdrum/CLionProjects/ramble/chunk.h
@@ -45,6 +27,10 @@ C:/Users/sdrum/CLionProjects/ramble/chunk.h
 C:/Users/sdrum/CLionProjects/ramble/main.c
 stdio.h
 -
+stdlib.h
+-
+string.h
+-
 common.h
 C:/Users/sdrum/CLionProjects/ramble/common.h
 chunk.h
@@ -54,37 +40,9 @@ C:/Users/sdrum/CLionProjects/ramble/debug.h
 vm.h
 C:/Users/sdrum/CLionProjects/ramble/vm.h
 
-C:/Users/sdrum/CLionProjects/ramble/memory.c
-stdlib.h
--
-common.h
-C:/Users/sdrum/CLionProjects/ramble/common.h
-memory.h
-C:/Users/sdrum/CLionProjects/ramble/memory.h
-
-C:/Users/sdrum/CLionProjects/ramble/memory.h
-
-C:/Users/sdrum/CLionProjects/ramble/value.c
-stdio.h
--
-memory.h
-C:/Users/sdrum/CLionProjects/ramble/memory.h
-value.h
-C:/Users/sdrum/CLionProjects/ramble/value.h
-
 C:/Users/sdrum/CLionProjects/ramble/value.h
 common.h
 C:/Users/sdrum/CLionProjects/ramble/common.h
-
-C:/Users/sdrum/CLionProjects/ramble/vm.c
-stdio.h
--
-common.h
-C:/Users/sdrum/CLionProjects/ramble/common.h
-debug.h
-C:/Users/sdrum/CLionProjects/ramble/debug.h
-vm.h
-C:/Users/sdrum/CLionProjects/ramble/vm.h
 
 C:/Users/sdrum/CLionProjects/ramble/vm.h
 chunk.h

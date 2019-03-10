@@ -7,6 +7,15 @@ CMakeFiles\ramble.dir\chunk.c.obj: ..\common.h
 CMakeFiles\ramble.dir\chunk.c.obj: ..\memory.h
 CMakeFiles\ramble.dir\chunk.c.obj: ..\value.h
 
+CMakeFiles\ramble.dir\compiler.c.obj: ..\chunk.h
+CMakeFiles\ramble.dir\compiler.c.obj: ..\common.h
+CMakeFiles\ramble.dir\compiler.c.obj: ..\compiler.c
+CMakeFiles\ramble.dir\compiler.c.obj: ..\compiler.h
+CMakeFiles\ramble.dir\compiler.c.obj: ..\debug.h
+CMakeFiles\ramble.dir\compiler.c.obj: ..\scanner.h
+CMakeFiles\ramble.dir\compiler.c.obj: ..\value.h
+CMakeFiles\ramble.dir\compiler.c.obj: ..\vm.h
+
 CMakeFiles\ramble.dir\debug.c.obj: ..\chunk.h
 CMakeFiles\ramble.dir\debug.c.obj: ..\common.h
 CMakeFiles\ramble.dir\debug.c.obj: ..\debug.c
@@ -24,6 +33,10 @@ CMakeFiles\ramble.dir\memory.c.obj: ..\common.h
 CMakeFiles\ramble.dir\memory.c.obj: ..\memory.c
 CMakeFiles\ramble.dir\memory.c.obj: ..\memory.h
 
+CMakeFiles\ramble.dir\scanner.c.obj: ..\common.h
+CMakeFiles\ramble.dir\scanner.c.obj: ..\scanner.c
+CMakeFiles\ramble.dir\scanner.c.obj: ..\scanner.h
+
 CMakeFiles\ramble.dir\value.c.obj: ..\common.h
 CMakeFiles\ramble.dir\value.c.obj: ..\memory.h
 CMakeFiles\ramble.dir\value.c.obj: ..\value.c
@@ -31,6 +44,7 @@ CMakeFiles\ramble.dir\value.c.obj: ..\value.h
 
 CMakeFiles\ramble.dir\vm.c.obj: ..\chunk.h
 CMakeFiles\ramble.dir\vm.c.obj: ..\common.h
+CMakeFiles\ramble.dir\vm.c.obj: ..\compiler.h
 CMakeFiles\ramble.dir\vm.c.obj: ..\debug.h
 CMakeFiles\ramble.dir\vm.c.obj: ..\value.h
 CMakeFiles\ramble.dir\vm.c.obj: ..\vm.c

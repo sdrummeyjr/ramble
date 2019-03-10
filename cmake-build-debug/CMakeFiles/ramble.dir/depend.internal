@@ -7,6 +7,15 @@ CMakeFiles/ramble.dir/chunk.c.obj
  C:/Users/sdrum/CLionProjects/ramble/common.h
  C:/Users/sdrum/CLionProjects/ramble/memory.h
  C:/Users/sdrum/CLionProjects/ramble/value.h
+CMakeFiles/ramble.dir/compiler.c.obj
+ C:/Users/sdrum/CLionProjects/ramble/chunk.h
+ C:/Users/sdrum/CLionProjects/ramble/common.h
+ C:/Users/sdrum/CLionProjects/ramble/compiler.c
+ C:/Users/sdrum/CLionProjects/ramble/compiler.h
+ C:/Users/sdrum/CLionProjects/ramble/debug.h
+ C:/Users/sdrum/CLionProjects/ramble/scanner.h
+ C:/Users/sdrum/CLionProjects/ramble/value.h
+ C:/Users/sdrum/CLionProjects/ramble/vm.h
 CMakeFiles/ramble.dir/debug.c.obj
  C:/Users/sdrum/CLionProjects/ramble/chunk.h
  C:/Users/sdrum/CLionProjects/ramble/common.h
@@ -24,6 +33,10 @@ CMakeFiles/ramble.dir/memory.c.obj
  C:/Users/sdrum/CLionProjects/ramble/common.h
  C:/Users/sdrum/CLionProjects/ramble/memory.c
  C:/Users/sdrum/CLionProjects/ramble/memory.h
+CMakeFiles/ramble.dir/scanner.c.obj
+ C:/Users/sdrum/CLionProjects/ramble/common.h
+ C:/Users/sdrum/CLionProjects/ramble/scanner.c
+ C:/Users/sdrum/CLionProjects/ramble/scanner.h
 CMakeFiles/ramble.dir/value.c.obj
  C:/Users/sdrum/CLionProjects/ramble/common.h
  C:/Users/sdrum/CLionProjects/ramble/memory.h
@@ -32,6 +45,7 @@ CMakeFiles/ramble.dir/value.c.obj
 CMakeFiles/ramble.dir/vm.c.obj
  C:/Users/sdrum/CLionProjects/ramble/chunk.h
  C:/Users/sdrum/CLionProjects/ramble/common.h
+ C:/Users/sdrum/CLionProjects/ramble/compiler.h
  C:/Users/sdrum/CLionProjects/ramble/debug.h
  C:/Users/sdrum/CLionProjects/ramble/value.h
  C:/Users/sdrum/CLionProjects/ramble/vm.c

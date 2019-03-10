@@ -13,7 +13,8 @@
 static void repl() {
     char line[1024];
     for (;;) {
-        printf("> ");
+        printf("Ramble Interpreter REPL:\n");
+        printf(">  ");
 
         if (!fgets(line, sizeof(line), stdin)) {
             printf("\n");
